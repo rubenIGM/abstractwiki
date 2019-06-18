@@ -16,7 +16,7 @@ body {
 	height: 100vh;
 	width: 100%;
 	background: #001323;
-	background: url(images/artboard2.svg);
+	background: url(images/T--FAU_Erlangen--artboard2.svg);
 	background-size: cover;
 	background-repeat: none;
 	background-position: center;
@@ -124,7 +124,7 @@ body {
 }
 
 .active:after {
-	content: url(images/plus.svg);
+	content: url(images/T--FAU_Erlangen--plus.svg);
 	transform: translate(0, -10px) rotate(45deg);
 	transition-duration: 0.3s;
 	padding: 15px;
