@@ -131,7 +131,7 @@ body {
 	padding: 15px;
 }
 
-.active, .accordion:hover {
+.accordion:hover {
 	background-color: #ccc;
 }
 
