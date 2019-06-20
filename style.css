@@ -114,6 +114,7 @@ body {
 	transition: 0.4s;
 	border-radius: 15px;
 	margin-top: 15px;
+  transition: 0.3s;
 }
 
 .accordion:after {
