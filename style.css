@@ -12,8 +12,8 @@ body {
 	line-height: 25px;
 }
 
-button {
-	font-family: inherit;
+h1, h2, button {
+	font-family: 'Ubuntu';
 }
 
 .showcase::after {
@@ -43,6 +43,7 @@ button {
 	text-align: center;
 	transition: all 1000ms;
   color: #001323;
+	font-family: 'Ubuntu';
 }
 
 .content .logo {
