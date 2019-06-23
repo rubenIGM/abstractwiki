@@ -8,12 +8,12 @@ body {
 	background: #001323;
 	margin: 0;
 	color: #fff;
-	font-family: 'Lato';
+	font-family: Lato;
 	line-height: 25px;
 }
 
 h1, h2, button {
-	font-family: 'Ubuntu';
+	font-family: Ubuntu;
 }
 
 .showcase::after {
@@ -43,7 +43,7 @@ h1, h2, button {
 	text-align: center;
 	transition: all 1000ms;
   color: #001323;
-	font-family: 'Ubuntu';
+	font-family: Ubuntu;
 }
 
 .content .logo {
