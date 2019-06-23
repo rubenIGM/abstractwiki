@@ -8,7 +8,12 @@ body {
 	background: #001323;
 	margin: 0;
 	color: #fff;
-	font-family: 'Roboto Condensed', sans-serif ;
+	font-family: 'Lato';
+	line-height: 25px;
+}
+
+button {
+	font-family: inherit;
 }
 
 .showcase::after {
@@ -20,19 +25,9 @@ body {
 	background-repeat: none;
 	background-position: center;
 	display: block;
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
-	transition: all 1000ms;
-}
-
-.showcase:hover::after {
-	filter: blur(0px);
-	-webkit-filter: blur(0px);
-}
-
-.showcase:hover .content {
 	filter: blur(2px);
 	-webkit-filter: blur(2px);
+	transition: all 1000ms;
 }
 
 .content {
@@ -70,11 +65,7 @@ body {
 .abstract h2 {
 	text-transform: uppercase;
 	margin: 20px;
-}
-
-.abstract {
-	hyphens: auto;
-	text-align: justify;
+	text-align: center;
 }
 
 .container {
@@ -85,8 +76,9 @@ body {
 }
 
 .center {
-	text-align: center;
-	margin: auto;
+	hyphens: auto;
+	text-align: justify;
+	margin: 0px 20px 0px 20px;
 }
 
 .bg-light {
@@ -102,7 +94,7 @@ body {
 .accordion {
 	padding-left: 15px;
 	background-color: #eee;
-	font-size: 15px;
+	font-size: 20px;
 	color: #444;
 	cursor: pointer;
 	width: 100%;
@@ -113,7 +105,7 @@ body {
 	outline: none;
 	transition: 0.4s;
 	border-radius: 15px;
-	margin-top: 15px;
+	margin-top: 20px;
   transition: 0.3s;
 }
 
@@ -136,7 +128,7 @@ body {
 }
 
 .panel {
-	margin-top: 5px;
+	margin-top: 10px;
 	border-radius: 15px;
 	padding: 18px;
 	display: none;
