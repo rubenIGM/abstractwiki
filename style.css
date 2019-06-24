@@ -121,7 +121,7 @@ h1, h2, button {
 .center {
 	hyphens: auto;
 	text-align: justify;
-	margin: 0px 20px 0px 20px;
+	margin: auto;
 }
 
 .bg-light {
