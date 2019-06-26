@@ -173,10 +173,14 @@ h1, h2, button {
 	margin-top: 10px;
 	border-radius: 15px;
 	padding: 18px;
-	display: none;
 	overflow: hidden;
 	hyphens: auto;
 	text-align: justify;
+	display: none;
+}
+
+.panel p{
+	padding-top: 10px;
 }
 
 footer {
