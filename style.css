@@ -183,6 +183,26 @@ h1, h2, button {
 	padding-top: 10px;
 }
 
+
+.referenes {
+	margin-top: 40px;
+	color: #eee;
+}
+
+.referenesul{
+	margin-top: 20px;
+	column-count: 2;
+}
+
+.referenes ul{
+	margin: 0px 20px 0 20px;
+	list-style-position: inside;
+}
+
+.referenes li{
+	list-style-type: decimal;
+}
+
 footer {
 	display: table;
 	width: 100%;
@@ -246,6 +266,11 @@ footer {
 
 	.accordion {
 		font-size: 15px;
+	}
+
+	.referenesul{
+		margin-top: 20px;
+		column-count: 1;
 	}
 
 	.social .social-left a {
