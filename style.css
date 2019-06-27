@@ -273,6 +273,15 @@ footer {
 		column-count: 1;
 	}
 
+	.referenes ul{
+		margin: 0px 20px 0 20px;
+		list-style-position: inside;
+	}
+
+	.referenes li{
+		list-style-type: decimal;
+	}
+
 	.social .social-left a {
 		text-decoration: none;
 		float: none;
